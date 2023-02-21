@@ -7,17 +7,16 @@
 
 int main(void)
 {
-	int num;
+	int n;
 
-	for (num = 0; num <= 9; num++)
+	for (n = 0; n <= 9; n++)
 	{
-		if (num != 9)
+		putchar(n);
+		if (n != 9)
 		{
-		putchar(num);
-		putchar(", ");
+			putchar(',');
+			putchar(' ');
 		}
-		else
-		putchar(num)
 	}
 	putchar('\n');
 	return (0);
