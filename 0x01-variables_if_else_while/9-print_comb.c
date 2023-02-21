@@ -20,5 +20,5 @@ int main(void)
 		else
 		putchar(num);
 	}
-	return (0)
+	return (0);
 }
