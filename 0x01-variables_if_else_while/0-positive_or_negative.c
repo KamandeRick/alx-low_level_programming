@@ -10,12 +10,14 @@ int main() {
 	int n;
 	printf ("%d", n);
 	if (n>0){
-		printf("is positive")
+		printf("is positive");
 		}
 	else (n==0) {
-		printf("is zero")
+		printf("is zero");
 	}
 	else (n<0) {
-		printf("is negative")};
+		printf("is negative");}
 
 printf("\n")
+
+}
