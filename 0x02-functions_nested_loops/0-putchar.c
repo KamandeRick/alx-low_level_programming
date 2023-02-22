@@ -5,11 +5,11 @@
  * Return: Always 0
  */
 
+char message = "_putchar";
+
 int _putchar(char message)
 
 {
-	char message = "_putchar";
-
 	putchar(message);
 
 	return (0);
