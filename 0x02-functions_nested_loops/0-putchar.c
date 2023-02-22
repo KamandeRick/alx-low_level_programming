@@ -1,15 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints _putchar
+ * _putchar - prints _putchar
  * Return: Always 0
  */
 
-int main(void)
+char message = "_putchar";
+
+int _putchar(char message)
+
 {
-	char message [] = "_putchar";
 
 	putchar(message);
 
-	retturn (0);
+	return (0);
 }
