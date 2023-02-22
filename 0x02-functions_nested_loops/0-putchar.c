@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-int _putchar(void)
+int _putchar(int message)
 
 {
 	char message = "_putchar";
