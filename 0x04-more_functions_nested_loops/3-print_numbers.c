@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-void printInt(void)
+int printInt(void)
 {
 	int i;
 
