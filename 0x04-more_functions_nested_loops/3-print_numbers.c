@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * printInt - Prints digits 0-9
+ * print_nunmbers - Prints digits 0-9
  * Return: Always 0
  */
 
-int printInt(void)
+void print_numbers(void)
 {
 	int i;
 
