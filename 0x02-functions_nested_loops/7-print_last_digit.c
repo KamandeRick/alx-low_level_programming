@@ -3,23 +3,22 @@
 /**
  * print_last_digit - prints last digit of integer
  * @n: integer to be checked
- * @a: placeholder for last digit
  * Return: last digit
  */
 
 int print_last_digit(int n)
 {
-        int a = n % 10;
+	int a = n % 10;
 
-        if (a < 0)
-        {
-            a = -a;
-            _putchar(a + '0');
-            return (a);
-        }
-        else
-        { 
-            _putchar(a + '0');
-            return (a);
-        }
+	if (a < 0)
+	{
+		a = -a;
+		_putchar(a + '0');
+		return (a);
+	}
+	else
+	{
+		_putchar(a + '0');
+		return (a);
+	}
 }
