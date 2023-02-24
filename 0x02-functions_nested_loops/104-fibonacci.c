@@ -30,16 +30,16 @@ int main(void)
 
 	pre1 = (pre / l);
 	pre2 = (pre % l);
-	post1 = (aft / l);
+	post1 = (post / l);
 	post2 = (aft % l);
 
 	for (i = 92; i < 99; ++i)
 	{
-		printf(", %lu", post1 + (aft2 / l));
+		printf(", %lu", post1 + (post2 / l));
 		printf("%lu", post2 % l);
-		post1 = aft1 + pre1;
+		post1 = post1 + pre1;
 		pre1 = post1 - pre1;
-		post2 = aft2 + pre2;
+		post2 = post2 + pre2;
 		pre2 = post2 - pre2;
 	}
 	printf("\n");
