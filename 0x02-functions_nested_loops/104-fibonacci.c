@@ -31,7 +31,7 @@ int main(void)
 	pre1 = (pre / l);
 	pre2 = (pre % l);
 	post1 = (post / l);
-	post2 = (aft % l);
+	post2 = (post % l);
 
 	for (i = 92; i < 99; ++i)
 	{
