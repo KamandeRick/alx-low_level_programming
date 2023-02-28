@@ -22,4 +22,8 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 	{
-		_putchar
+		_putchar(str[o]);
+	}
+	}
+	_putchar('\n');
+}
