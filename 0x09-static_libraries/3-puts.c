@@ -5,4 +5,4 @@
  *@str: input value
  * Return: Always 0 (Success)
  */
-void _puts(char *str);
+void _puts(char *str){};
