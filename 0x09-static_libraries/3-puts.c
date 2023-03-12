@@ -1,8 +1,13 @@
 #include "main.h"
-
 /**
- *_puts - Entry point
- *@str: input value
- * Return: Always 0 (Success)
+ * _puts - prints a string, followed by a new line, to output
+ * @str: string to print
  */
-void _puts(char *str){};
+void _puts(char *str)
+{
+	while (*str != '\0')
+	{
+		_putchar(*str++);
+	}
+		_putchar('\n');
+}
