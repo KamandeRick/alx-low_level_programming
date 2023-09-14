@@ -3,13 +3,15 @@
 /**
  * binary_to_uint - creates an int out of a binary number
  * @b: binary number string
- * Return:new int converted from binary 
+ * Return:new int converted from binary
  */
+
+unsigned int binary_to_uint(const char *b)
 
 {
 	unsigned int value = 0;
 
-	if (!b) 
+	if (!b)
 		return (0);
 
 	for (int x = 0; b[i]; x++)
