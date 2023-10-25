@@ -8,16 +8,16 @@
  */
 int totalSum_dlistint(dlistint_t *head)
 {
-	dlistint_t *present;
+	dlistint_t *current;
 	int totalSum = 0;
 
 	if (head == NULL)
 		return (totalSum);
-	present = head;
-	while (present)
+	current = head;
+	while (current)
 	{
-		totalSum += present->n;
-		present = present->next;
+		totalSum += current->n;
+		current = current->next;
 	}
 	return (totalSum);
 }
